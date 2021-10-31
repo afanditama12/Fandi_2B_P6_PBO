@@ -1,4 +1,4 @@
-public class RectangleToy extends GeometryToy{
+public class RectangleToy extends GeometryToy {
     double weight, height;
 
     // constructor
@@ -12,12 +12,10 @@ public class RectangleToy extends GeometryToy{
     }
 
     public double area() {
-        return weight *height;
+        return weight * height;
     }
 
     public double circumference() {
-        return 2*(weight + height);
+        return 2 * (weight + height);
     }
 }
-
-

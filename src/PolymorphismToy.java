@@ -1,8 +1,9 @@
 public class PolymorphismToy {
-    static void test() {
-        RectangleToy rectangletoy = new RectangleToy(10, 20);
-        SquareToy squaretoy = new SquareToy(30);
-    }
+    // static void test() {
+        // RectangleToy rectangletoy = new RectangleToy(10, 20);
+
+        // SquareToy squaretoy = new SquareToy(30);
+    // }
 
     static void printGeometry(GeometryToy theG) {
         System.out.println("==========================");
@@ -12,6 +13,13 @@ public class PolymorphismToy {
     }
 
     public static void main(String[] args) {
-        test();
+        // test();
+
+        RectangleToy rectangletoy = new RectangleToy(10, 20);
+        SquareToy squaretoy = new SquareToy(30);
+
+        printGeometry(rectangletoy);
+        printGeometry(squaretoy);
+
     }
 }
